@@ -1,4 +1,11 @@
 <?php
+/**
+ * AppAsset.php
+ *
+ * @author Pedro Plowman
+ * @copyright Copyright (c) 2024 Pedro fp
+ * @link https://pedro.id.au/
+ */
 
 namespace frontend\assets;
 
@@ -9,10 +16,11 @@ use yii\web\AssetBundle;
  */
 class AppAsset extends AssetBundle
 {
-	public $basePath = '@webroot';
-	public $baseUrl = '@web';
+	public $sourcePath = '@static/frontend';
+	//public $basePath = '@webroot';
+	//public $baseUrl = '@web';
 	public $css = [
-		'css/site.css',
+		'css/site.min.css',
 	];
 	public $js = [
 	];
