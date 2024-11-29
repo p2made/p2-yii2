@@ -6,6 +6,7 @@
 
 # The docs/ folder contains confidential information
 docs/
+**/docs/
 
 # Ignore z_gitignore folders at any level
 z_gitignore/
