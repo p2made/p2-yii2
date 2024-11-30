@@ -60,6 +60,7 @@ p2-yii2/
 		widgets/             contains frontend widgets
 	vendor/                  contains dependent 3rd-party packages
 	environments/            contains environment-based overrides
+	static/                  contains static files for assets
 public_html/                 contains the entry script and Web resources for frontend
 	sub_admin/               contains the entry script and Web resources for backend
 ```
