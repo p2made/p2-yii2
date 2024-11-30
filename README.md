@@ -1,3 +1,7 @@
+# P2 Yii2
+
+Customisation of Yii 2 Advanced for Hostinger.
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
@@ -29,7 +33,7 @@ common
     config/              contains shared configurations
     mail/                contains view files for e-mails
     models/              contains model classes used in both backend and frontend
-    tests/               contains tests for common classes    
+    tests/               contains tests for common classes
 console
     config/              contains console configurations
     controllers/         contains console controllers (commands)
@@ -42,7 +46,7 @@ backend
     controllers/         contains Web controller classes
     models/              contains backend-specific model classes
     runtime/             contains files generated during runtime
-    tests/               contains tests for backend application    
+    tests/               contains tests for backend application
     views/               contains view files for the Web application
     web/                 contains the entry script and Web resources
 frontend
