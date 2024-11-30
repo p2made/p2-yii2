@@ -7,15 +7,16 @@ use yii\web\AssetBundle;
 /**
  * Main backend application asset bundle.
  */
-class AppAsset extends AssetBundle
+class P2BackendAsset extends AssetBundle
 {
-	public $basePath = '@webroot';
-	public $baseUrl = '@web';
+	public $sourcePath = '@static/backend';
+	//public $basePath = '@webroot';
+	//public $baseUrl = '@web';
 	public $css = [
-		'css/site.css',
+		'css/site.min.css',
 	];
-	public $js = [
-	];
+	//public $js = [
+	//];
 	public $depends = [
 		'yii\web\YiiAsset',
 		'yii\bootstrap5\BootstrapAsset',
